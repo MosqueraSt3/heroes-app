@@ -10,7 +10,8 @@ export const HeroItem = ({
     characters,
 }) => {
 
-    const heroImg = `/assets/heroes/${ id }.jpg`;
+    // To dev mode remove the /heroes-app/
+    const heroImg = `/heroes-app/assets/heroes/${ id }.jpg`;
 
     return (
         <div className='col animate__animated animate__fadeIn mt-2'>
