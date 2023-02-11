@@ -11,7 +11,7 @@ export const HeroItem = ({
 }) => {
 
     // To dev mode remove the /heroes-app/
-    const heroImg = `/heroes-app/assets/heroes/${ id }.jpg`;
+    const heroImg = `/heroes/${ id }.jpg`;
 
     return (
         <div className='col animate__animated animate__fadeIn mt-2'>
